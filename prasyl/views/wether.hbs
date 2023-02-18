@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>link}}
+</head>
+<body>
+    {{>nav}}
+    <div class="main-con">
+        <form class="fom">
+            <input type="text" id="cityname"  placeholder="Enter Your city name">
+            <input type="submit" value="Search" id="sumbtn">
+        </form>
+    </div>
+    <div class="info">
+        <div class="top">
+            <p id="day">thu</p>
+            <p id="date">12 </p>
+            <oct id="moth">oct</p>
+        </div>
+        <div class="boton">
+            <p id="city-name">get out put</p>
+            <div class="temp">
+                <p id="tempher"></p>
+                <p id="tem-sta"></p>
+                {{!-- <i class="fa-solid fa-cloud"></i> --}}
+                
+            </div>
+        </div>
+    </div>
+      <script src="js/main.js"></script>
+</body>
+</html>
